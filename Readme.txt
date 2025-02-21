@@ -18,6 +18,7 @@ APIs:
 /films/episodes-range/:min/:max
 
 - Đếm số lượng tất cả bộ phim
++ /films/count
 - Lấy 10 bộ phim đầu tiên có điểm đánh giá trung bình (avgRate) cao nhất
 
 + /films/top-10 
