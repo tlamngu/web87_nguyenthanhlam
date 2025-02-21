@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "2b247500-34c2-4304-8ea0-d624fd8907c2",
+		"name": "web87Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24541103"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/films/episodes-range/:min/:max",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/episodes-range/:min/:max",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"episodes-range",
+						":min",
+						":max"
+					],
+					"variable": [
+						{
+							"key": "min",
+							"value": "5"
+						},
+						{
+							"key": "max",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/name-keyword/:keyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/name-keyword/:keyword",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"name-keyword",
+						":keyword"
+					],
+					"variable": [
+						{
+							"key": "keyword",
+							"value": "Ceb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/actor/:actorName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/actor/:actorName",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"actor",
+						":actorName"
+					],
+					"variable": [
+						{
+							"key": "actorName",
+							"value": "Charline Bramstom"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/country/:country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/country/:country",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"country",
+						":country"
+					],
+					"variable": [
+						{
+							"key": "country",
+							"value": "Russia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/year/:year",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/year/:year",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"year",
+						":year"
+					],
+					"variable": [
+						{
+							"key": "year",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/films/top-10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/films/top-10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"films",
+						"top-10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
